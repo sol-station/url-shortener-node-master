@@ -1,0 +1,21 @@
+body {
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  height: 40vh;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-image: url(/public/background.jpg);
+  background-position: center;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+header .btn {
+  text-transform: uppercase;
+}
